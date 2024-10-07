@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Vokabel Teller",
   "resources": {
-    "hash": "sha256-H6IUXt1nfQrbyFpPmyel1xeNbo5lMO0PBKvTmacX5JQ=",
+    "hash": "sha256-XAivvPxc5QSxRT60PgXVx6VdRyV9L8YSkdmTf/kgKvU=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.lbg7txl8po.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -46,11 +46,12 @@
       "System.Private.Uri.wasm": "sha256-RSUlhRRKPw00H+UnQJ59AadEvC5WZTgZL401dKdSGeQ=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-axgwq/HmUZ9ac8hGCXLwlExQsFnu3rH6uakC50cgATc=",
       "System.Runtime.wasm": "sha256-nBceYUuDqb0METCZZapx3c4nt6MQwYCJYlPVh7luQG0=",
+      "System.Security.Cryptography.wasm": "sha256-NlBuVO36n1Sx6JTCtjBz46kwDnbtv1FoDJY2498vKqI=",
       "System.Text.Encodings.Web.wasm": "sha256-hvL1Sp38Sb9Pf0P2X3TSMaVAgkSIFhOOfYTuLaUbkvs=",
       "System.Text.Json.wasm": "sha256-HCdx/dhwYkHJ2+JNVXOb063K2+SyfU0maQ0JlKREQQ4=",
       "System.Text.RegularExpressions.wasm": "sha256-8bujMNUMCuxn48zxE7AA6YYcbZJjv76LHEAtNjS6TuE=",
       "System.Threading.wasm": "sha256-/sB9Aucuch2CQz4pnfsZuu5jossTPJjDZbDvKQuEVek=",
-      "Vokabel Teller.wasm": "sha256-z12MxZN4ndZV0WYTr7dWT3FXjsTqLppTa8Tq/sX8EQE="
+      "Vokabel Teller.wasm": "sha256-4IqxRIAeqRAEDd0CsmIbbB2OMsKcYwOr4u5RLoZaUoU="
     }
   },
   "cacheBootResources": true,
