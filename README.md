@@ -3,11 +3,11 @@ V1.031 01.11.2024
 Add Letter Low or Up not important. All compares with ToLower (Haus,haus,hAuS) compare all as (haus)
 
 Add Multible Answers with Seperation Letter /
-Example
-Word1: Haus/Häuser
------------------
-Word2: House/Houses
-Correct: House
+
+Example<br>
+Word1: Haus/Häuser<br>
+Word2: House/Houses<br>
+Correct: House<br>
 correct: Houses
 
 
@@ -28,9 +28,9 @@ This App is only Offline. You can use your Database only in your Main Browser or
 
 The projekt self is startet by a Standart Visual Studio Blazor-WebAssembly App Project.
 
-In Using is Indexed DB  from  
-https://github.com/brianly1003/Blazor.IndexedDB
-and original Repo from
+In Using is Indexed DB  from<br>
+https://github.com/brianly1003/Blazor.IndexedDB<br>
+and original Repo from<br>
 https://github.com/Reshiru/Blazor.IndexedDB.Framework
 
 
