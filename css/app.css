@@ -135,3 +135,19 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.input-no-border {
+    border: none;               /* Standardmäßig keinen Rand anzeigen */
+    outline: none;              /* Kein Fokus-Rahmen anzeigen */
+    background-color: transparent;
+    padding: 5px;               /* Ein wenig Abstand zum Text */
+    transition: border 0.3s;    /* Übergangseffekt für die Rahmenänderung */
+    border-bottom: 1px solid transparent; /* Unsichtbarer unterer Rand */
+}
+
+/* Rand anzeigen, wenn das Feld fokussiert ist */
+.input-no-border:focus {
+    border-bottom: 1px solid gray; /* Unteren Rand sichtbar machen */
+}
+
+
