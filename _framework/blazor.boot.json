@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Vokabel Teller",
   "resources": {
-    "hash": "sha256-o+aeVOAtQDb9AJF75DmWIpmF3NoAOJ7BWFvu64UQDt0=",
+    "hash": "sha256-M3dkUYQcjwMKhiqxkuHDWeUEU1g641FsEyGonAO+pAs=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.lbg7txl8po.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -52,14 +52,14 @@
       "System.Private.Uri.wasm": "sha256-pbObh98jXGstZNoHRDo4ILfE33gbAcLQO/xcIjr6Rng=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-axgwq/HmUZ9ac8hGCXLwlExQsFnu3rH6uakC50cgATc=",
       "System.Runtime.Serialization.Primitives.wasm": "sha256-gD6Tz54/8PLKR0BaNHN0sHu1+l5YYpnOod1l0gPHcGU=",
-      "System.Runtime.wasm": "sha256-zTFUM0xUfdaYoQ/3cRd3lLsMfykrokxY/WliCDZztUc=",
+      "System.Runtime.wasm": "sha256-CwHf3bUH/eUGmupv0JyXJWJ3HBTwy9sg++ogcCBraO0=",
       "System.Security.Cryptography.wasm": "sha256-NlBuVO36n1Sx6JTCtjBz46kwDnbtv1FoDJY2498vKqI=",
       "System.Text.Encodings.Web.wasm": "sha256-hvL1Sp38Sb9Pf0P2X3TSMaVAgkSIFhOOfYTuLaUbkvs=",
       "System.Text.Json.wasm": "sha256-Y+qMp6mOBaOj8VZyd6oWRA37DGXq3kdoYxU6WOmvpeM=",
       "System.Text.RegularExpressions.wasm": "sha256-3YU2VEF7BUt4BBRwooG+MZf68VXtzyyzxtzrSqVWLGM=",
       "System.Threading.wasm": "sha256-/sB9Aucuch2CQz4pnfsZuu5jossTPJjDZbDvKQuEVek=",
       "System.wasm": "sha256-ka1SPMSVGn53xDzeBa40FQCsprKEF+n+wpvvd1HyMNE=",
-      "Vokabel Teller.wasm": "sha256-q2oPY9B5rylH+ztZtWuYuRjqBPi4Y+KnFq+Ql9xnOOc="
+      "Vokabel Teller.wasm": "sha256-fYXfsgLXeM3T8/Wp+brd8Qjg5SeKGMavnupi4TPMF3Y="
     }
   },
   "cacheBootResources": true,
