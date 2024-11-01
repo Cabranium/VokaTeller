@@ -1,3 +1,16 @@
+V1.031 01.11.2024
+
+Add Letter Low or Up not important. All compares with ToLower (Haus,haus,hAuS) compare all as (haus)
+
+Add Multible Answers with Seperation Letter /
+Example
+Word1: Haus/Häuser
+-----------------
+Word2: House/Houses
+Correct: House
+correct: Houses
+
+
 V1.03 01.11.2024
 
 Add Write Training
