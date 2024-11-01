@@ -1,4 +1,9 @@
-V1.031 01.11.2024
+V1.032 <br>
+01.11.2024
+Add Edit Entry from Lists
+
+V1.031 <br>
+01.11.2024
 
 Add Letter Low or Up not important. All compares with ToLower (Haus,haus,hAuS) compare all as (haus)
 
@@ -11,7 +16,8 @@ Correct: House<br>
 correct: Houses
 
 
-V1.03 01.11.2024
+V1.03<br> 
+01.11.2024
 
 Add Write Training
 Add Change List Name directly
