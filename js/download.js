@@ -1,5 +1,5 @@
 ﻿
-//Um den Download der Datenbank auszulösen
+//for invoke the download. only posible with Java Script
 function downloadFile(filename, content) {
     var blob = new Blob([content], { type: 'application/json' });
     var link = document.createElement('a');
@@ -7,5 +7,4 @@ function downloadFile(filename, content) {
     link.download = filename;
     link.click();
     link.remove();
-
 }

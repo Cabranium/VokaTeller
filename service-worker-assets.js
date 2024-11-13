@@ -29,7 +29,7 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-JAhuAt4Tj\/0REYNQ4V2HkVhsWehx+7vNtfuSGxxHv9U=",
+      "hash": "sha256-MqkBTVVV0UhUJWFC7rdBDt\/5Y+1hq68\/D7D0mcA4sjg=",
       "url": "js\/download.js"
     },
     {
@@ -69,7 +69,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-apYOtEm9hxxEbzW8JW7wHBi6264BiTerd7tOwA68jFU=",
+      "hash": "sha256-ecTGSIMgT8hPQQqNPJ28ZfwbWrpZ7jKOSnTim\/f7ms0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -241,7 +241,7 @@
       "url": "_framework\/System.wasm"
     },
     {
-      "hash": "sha256-uOyA5ez48KwGgtOWRCtEGnndgIFFvf+5noMMapS2vXk=",
+      "hash": "sha256-WMM288OB74g\/3lh0NibZ1C54bXvpjD3T2MMgpvQk\/rE=",
       "url": "_framework\/Vokabel Teller.wasm"
     },
     {
@@ -253,5 +253,5 @@
       "url": "_content\/Blazor.IndexedDB\/indexedDb.Blazor.js"
     }
   ],
-  "version": "G2Ey3XCN"
+  "version": "11aQJ7X2"
 };

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Vokabel Teller",
   "resources": {
-    "hash": "sha256-3F1J9UtUUpfz/Xpq0Lv4F5xoAcQZlTwfNWQxGCMocKQ=",
+    "hash": "sha256-cAqWy3hgV6bXnT/Z/D3uX4UnW1c6MG9FqF6O6AeEq1M=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.lbg7txl8po.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -59,7 +59,7 @@
       "System.Text.RegularExpressions.wasm": "sha256-3YU2VEF7BUt4BBRwooG+MZf68VXtzyyzxtzrSqVWLGM=",
       "System.Threading.wasm": "sha256-/sB9Aucuch2CQz4pnfsZuu5jossTPJjDZbDvKQuEVek=",
       "System.wasm": "sha256-ka1SPMSVGn53xDzeBa40FQCsprKEF+n+wpvvd1HyMNE=",
-      "Vokabel Teller.wasm": "sha256-uOyA5ez48KwGgtOWRCtEGnndgIFFvf+5noMMapS2vXk="
+      "Vokabel Teller.wasm": "sha256-WMM288OB74g/3lh0NibZ1C54bXvpjD3T2MMgpvQk/rE="
     }
   },
   "cacheBootResources": true,
