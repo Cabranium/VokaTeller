@@ -34,12 +34,20 @@ a, .btn-link {
     
 }
 .btn-primary-Button-ListSetting {
-    color: #fff;
-    
+    color: #fff !important;
     border-color: #1861ac;
     display: inline; /*  Macht jeden Button zu einem Block-Element */
     margin-bottom: 10px; /* Fügt Abstand zwischen den Buttons hinzu */
 }
+
+    .btn-primary-Button-ListSetting:focus,
+    .btn-primary-Button-ListSetting:active
+    .btn-primary-Button-ListSetting:hover {
+        color: #fff !important;
+        border-color: #1861ac;
+        display: inline; /*  Macht jeden Button zu einem Block-Element */
+        margin-bottom: 10px; /* Fügt Abstand zwischen den Buttons hinzu */
+    }
 
 .btn-Auswahlfeld {
     display: block; /* Macht jeden Button zu einem Block-Element */

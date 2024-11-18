@@ -1,11 +1,11 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-6Th3+jxfhy3wE1GpMCXR1AGd2ut8XkxF79NAr1W97I0=",
+      "hash": "sha256-BxdFKcrz+4XvQN2H27yThx1J+wl7qyXI\/lNpVNYa22k=",
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-Z37TztIGM8+N\/6zNxbp7iZ28W1UKLtnUPFoewcKQArM=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -69,7 +69,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ecTGSIMgT8hPQQqNPJ28ZfwbWrpZ7jKOSnTim\/f7ms0=",
+      "hash": "sha256-4gKTBzBH4LmjIR7jUL\/W05U4p+PzyyOgS6zTJHbDNrE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -81,7 +81,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "hash": "sha256-U0dTQ6PuWuwHxA2v0NxFn90at55qvoYGkJpnvUbC0Ho=",
+      "hash": "sha256-m5yt44yU+3Ey8yAILcpZEN5LOWUxB99nS49F5iSVARc=",
       "url": "_framework\/Microsoft.AspNetCore.Components.wasm"
     },
     {
@@ -241,7 +241,7 @@
       "url": "_framework\/System.wasm"
     },
     {
-      "hash": "sha256-WMM288OB74g\/3lh0NibZ1C54bXvpjD3T2MMgpvQk\/rE=",
+      "hash": "sha256-5Ba\/yYj6POcD87PAhcO+O\/c9h4dicV0E7ii9xtcoJSo=",
       "url": "_framework\/Vokabel Teller.wasm"
     },
     {
@@ -253,5 +253,5 @@
       "url": "_content\/Blazor.IndexedDB\/indexedDb.Blazor.js"
     }
   ],
-  "version": "11aQJ7X2"
+  "version": "ClirxaqO"
 };
