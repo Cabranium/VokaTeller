@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\listsetting.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\listsetting.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\listsetting.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\listsetting.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\weeklydrill.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\weeklydrill.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\weeklydrill.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\weeklydrill.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\backup.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\backup.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\backup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\backup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\mainmenue.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\mainmenue.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\ownclasses\\hilfsklasseeintr\u00E4gedatenbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\ownclasses\\hilfsklasseeintr\u00E4gedatenbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\wwwroot\\js\\download.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\wwwroot\\js\\download.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\pages\\mainmenue.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\pages\\mainmenue.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|c:\\users\\cabra\\desktop\\projekt safes\\vokateller\\vokateller v1.035\\vokabel teller\\vokabel teller\\ownclasses\\indexeddbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FD75A0-4E30-4EEC-9E60-EEDEA5D484C6}|Vokabel Teller\\Vokabel Teller.csproj|solutionrelative:vokabel teller\\ownclasses\\indexeddbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListSetting.razor.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\ListSetting.razor.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\ListSetting.razor.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\ListSetting.razor.cs",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\ListSetting.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwBAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:59:37.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListSetting.razor",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\ListSetting.razor",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\ListSetting.razor",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\ListSetting.razor",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\ListSetting.razor",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T18:56:09.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Program.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Program.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Program.cs",
+              "RelativeToolTip": "Vokabel Teller\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:35:27.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "Vokabel Teller\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "Vokabel Teller\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-29T09:01:38.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Vokabel Teller\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T05:12:32.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HilfsklasseEintr\u00E4geDatenbank.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\OwnClasses\\HilfsklasseEintr\u00E4geDatenbank.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\OwnClasses\\HilfsklasseEintr\u00E4geDatenbank.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\OwnClasses\\HilfsklasseEintr\u00E4geDatenbank.cs",
+              "RelativeToolTip": "Vokabel Teller\\OwnClasses\\HilfsklasseEintr\u00E4geDatenbank.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wI8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:48:00.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IndexedDBConfig.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\OwnClasses\\IndexedDBConfig.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\OwnClasses\\IndexedDBConfig.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\OwnClasses\\IndexedDBConfig.cs",
+              "RelativeToolTip": "Vokabel Teller\\OwnClasses\\IndexedDBConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:58:56.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainMenue.razor",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\MainMenue.razor",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\MainMenue.razor",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\MainMenue.razor",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\MainMenue.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:24:57.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "download.js",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\wwwroot\\js\\download.js",
+              "RelativeDocumentMoniker": "Vokabel Teller\\wwwroot\\js\\download.js",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\wwwroot\\js\\download.js",
+              "RelativeToolTip": "Vokabel Teller\\wwwroot\\js\\download.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-19T09:29:01.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeeklyDrill.razor",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\WeeklyDrill.razor",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\WeeklyDrill.razor",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\WeeklyDrill.razor",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\WeeklyDrill.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T18:52:58.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeeklyDrill.razor.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\WeeklyDrill.razor.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\WeeklyDrill.razor.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\WeeklyDrill.razor.cs",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\WeeklyDrill.razor.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwDMCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:40:20.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Backup.razor",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\Backup.razor",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\Backup.razor",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\Backup.razor",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\Backup.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:20:08.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenue.razor.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\MainMenue.razor.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\MainMenue.razor.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\MainMenue.razor.cs",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\MainMenue.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:38:41.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Vokabel Teller\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\wwwroot\\index.html",
+              "RelativeToolTip": "Vokabel Teller\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-30T17:40:29.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Backup.razor.cs",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\Backup.razor.cs",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Pages\\Backup.razor.cs",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Pages\\Backup.razor.cs",
+              "RelativeToolTip": "Vokabel Teller\\Pages\\Backup.razor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:29:49.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Vokabel Teller\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Vokabel Teller\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T05:09:44.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "blazor.webassembly.js",
+              "DocumentMoniker": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "RelativeDocumentMoniker": "Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "ToolTip": "C:\\Users\\cabra\\Desktop\\Projekt Safes\\VokaTeller\\VokaTeller V1.035\\Vokabel Teller\\Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "RelativeToolTip": "Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACxlgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-12T14:21:44.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

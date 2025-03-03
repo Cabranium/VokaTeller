@@ -1,0 +1,40 @@
+﻿@using Vokabel_Teller;
+@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+@using Blazor.IndexedDB
+@using Vokabel_Teller.OwnClasses
+
+
+
+<!-- Main Design from page. First NavigationMenue and over @Body add side Content.-->
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+
+        <article style="padding-left: 0rem !important; padding-right: 0rem !important;">
+
+            @Body
+
+        </article>
+
+
+    </main>
+</div>
+
+
+<!--C#-Code-->
+@code {
+    [Inject]
+    private IIndexedDbFactory? DbFactory { get; set; }
+    //create a AdministrationTable if Programm starts if not exist this table
+    protected override async Task OnInitializedAsync()
+    {   
+        //Invoke Update Methodic for indexed Database if Versionsnumber of Database has change
+        await HilfsklasseEinträgeDatenbank.UpdateIndexedDBStart(DbFactory!);
+    }
+
+
+}

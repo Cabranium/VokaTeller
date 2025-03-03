@@ -1,0 +1,88 @@
+﻿@page "/WeeklyDrill"
+@using Vokabel_Teller.OwnClasses;
+@using System.Text.Json;
+@using System.IO;
+@using Blazor.IndexedDB;
+@using System.Collections.Generic;
+@using System.Security.Cryptography
+
+
+
+
+<div class="radio-container">
+    <button name="normalModus" @onclick="() => MenuBarSwitching(1)" class="btn btn-primary-Button-ListSetting" style="@($"background-color: {buttonColorSelection1}"); ">Normal</button>
+    <button name="oppositeModus" @onclick="() => MenuBarSwitching(2)" class="btn btn-primary-Button-ListSetting" style="@($"background-color: {buttonColorSelection2}"); ">Opposite</button>
+    <button name="RandomeModus" @onclick="() => MenuBarSwitching(3)" class="btn btn-primary-Button-ListSetting" style="@($"background-color: {buttonColorSelection3}"); ">Randome</button>
+</div>
+
+
+<div class="px-4" style="display: flex; flex-direction: column; justify-content: normal; align-items: center; height: 100vh; text-align: center;">
+
+    <!-- Grundgerüst des Dropdown-Menüs -->
+    <!-- Dropdown-Menü -->
+
+    <div class="dropdown">
+        <button class="btn btn-primary" @onclick="ToggleDropdown">@nameOfCoiceListButton</button>
+        <div class="dropdown-content" style="display:@(dropdownVisible ? "block" : "none")">
+            @foreach (var name in TableName)
+            {
+                <button class="btn btn-primary" @onclick="() => SelectListInDropDownMenue(name, TableName.IndexOf(name))">@name</button>
+            }
+        </div>
+        <label for="writeOnOff">Writing-Training</label>
+        <InputCheckbox id="writeOnOff" @bind-Value="WriteOnOff" @bind-Value:after ="groundSetting"></InputCheckbox>
+    </div>
+
+
+    <!-- H1-Tag mit angepasstem Stil, um Wortumbrüche zu ermöglichen -->
+    @if (WriteOnOff == false)
+    {
+        <h1 style="font-size: 50px; max-width: 100%; word-break: break-word; overflow-wrap: break-word;">
+
+            <label>@labelIssues1</label>
+            <br />
+            ------------------
+            <br />
+            <label>@labelIssues2</label>
+        </h1>
+        <br />
+        <br />
+        <div style=" font-size: 30px; width:100%;">
+            <button class="btn btn-primary" style=" font-size: 30px; width:100%;" @onclick="ButtonInputDeaktivated">@buttonNextContent</button>
+        </div>
+    }
+    else
+    {
+        <h1 style="font-size: 50px; max-width: 100%; word-break: break-word; overflow-wrap: break-word;">
+
+            <label>@labelIssues1</label>
+            <br />
+            ------------------
+            <br />
+            <input id="ButtonWithInput" typeof="text" class="btn-eingabefeld" @bind="InputWord" style="text-align:center; width:100%; @(inputFieldOnOFF ? "display: none;" : "display: block;")" />
+            <label>@labelIssues4</label>
+            <br />
+            <label style=" @(inputFieldOnOFF ? "display: block;" : "display: none;" )">@labelIssues3</label>
+        </h1>
+        <br />
+        <br />
+        <div style=" font-size: 30px; width:100%;">
+            <button class="btn btn-primary" style=" font-size: 30px; width:100%; background-color: @buttonColor;" @onclick="ButtonInputActivated">@buttonNextContent</button>
+        </div>
+    }
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div style="display: flex; justify-content: center;">
+        <NavLink class="nav-link btn btn-primary" href="">
+            Main Menue
+        </NavLink>
+    </div>
+</div>
+
+
+
+
+

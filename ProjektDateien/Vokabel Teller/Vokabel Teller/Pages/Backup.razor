@@ -1,0 +1,16 @@
+﻿@page "/Backup"
+
+
+
+<div class="px-4" style="display: flex; flex-direction: column; justify-content: normal; align-items: center; height: 100vh; text-align: center;">
+    <h3>Backup Options</h3>
+    <button class="btn btn-primary" @onclick="BackUpBecomesCreate"> Backup Creating</button>
+    <br />
+    <br />
+    <br />
+    <!--@Key is importment for refresh this Element after a wrong selection-->
+    <InputFile id="BackUpInputField" @key="fileKeyErrorReloadCounter" class="btn btn-primary" OnChange="CheckSelectedBackup" accept=".json" />
+    <br />
+    <button class="btn btn-primary" @onclick="LoadBackupFile" disabled="@isBackupButtonDisabled">Backup Recover</button>
+    <label style="@($"background-color: {labelBackupBackgroundColor}");">@labelNameBackupStaus</label>
+</div>

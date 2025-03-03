@@ -1,0 +1,191 @@
+﻿@page "/ListSetting"
+@using Vokabel_Teller.OwnClasses;
+@using Blazor.IndexedDB;
+
+
+<!--Elements for changing the WorkProcess in List Setting-->
+<div class="radio-container">
+    <button name="Auswahl1" @onclick="() => MenueWorkBarSwitchOption(1)" class="btn btn-primary-Button-ListSetting" style="@($"background-color: {buttonColorAuswahl1}") ">Work on List</button>
+    <button name="Auswahl2" @onclick="() => MenueWorkBarSwitchOption(2)" class="btn btn-primary-Button-ListSetting" style="@($"background-color: {buttonColorAuswahl2}") ">List Setting</button>
+    <button name="Auswahl3" @onclick="() => MenueWorkBarSwitchOption(3)" class="btn btn-primary-Button-ListSetting" style="background-color: @buttonColorAuswahl3">Move Words</button>
+</div>
+
+
+
+
+
+<div class="px-4" style="display: flex; flex-direction: column; justify-content: normal; align-items: center; height: 100vh; text-align: center;">
+
+    <!-- The CoupleEntrys will be add for editing -->
+    @if (optionCount == 1)
+    {
+        <!-- Mainconstruct from toggleMenue-->
+        <!-- Dropdown-Menü -->
+        <div class="dropdown">
+            <button class="btn btn-primary" @onclick="()=>ToggleDropdown(1)">@nameOfCoiceListButton1</button>
+            <div class="dropdown-content" style="display:@(dropdownVisible1 ? "block" : "none")">
+                @foreach (var name in TableNames)
+                {
+                    <button class="btn btn-primary" style="margin-left: 3px; margin-right: 3px;" @onclick="() => SelectList(name, TableNames.IndexOf(name),1)">@name</button>
+                }
+            </div>
+            <label for="editMode">EditMode</label>
+            <InputCheckbox id="editMode" @bind-Value="editMode"></InputCheckbox>
+        </div>
+
+        <h3>Add Couples ,Show and Deleting.</h3>
+
+        <br />
+
+
+        <label for="InsertNewData1">Input Data1:</label>
+
+        <br />
+        <input type="text" id="InsertNewData1" @bind="Entry1" class="btn-eingabefeld" placeholder="Insert Text">
+
+        <br />
+        <label for="InsertNewData2">Input Data2:</label>
+
+        <br />
+        <input type="text" id="InsertNewData2" @bind="Entry2" class="btn-eingabefeld" placeholder="Insert Text">
+
+        <br />
+
+        <br />
+        <div style="display: flex; justify-content: center;">
+            <button class="btn-primary" @onclick="SaveNewDataCouple">Save</button>
+        </div>
+
+        <br />
+
+        <br />
+        <!-- Dynamic create List from the Entry Couples with Deleting Button -->
+        @if (DataCoupleCopyOfList1 != null && DataCoupleCopyOfList1.Count > 0)
+        {
+            if (editMode == true)
+            {
+
+
+                @foreach (var paar in DataCoupleCopyOfList1)
+                {
+                    <div style="display: flex; align-items: center; justify-content: flex-start; text-align: left; width: 100%;">
+                        <input id="@paar.Data1" typeof="text" style="width: @(paar.Data1.Length + 5)ch;" class="input-no-border" @onchange="(e) => ChangeEntry(e,paar.Data1,1)" value="@paar.Data1" />
+                        -
+                        <input id="@paar.Data2" typeof="text" style="width: @(paar.Data2.Length + 5)ch;" class="input-no-border" @onchange="(e) => ChangeEntry(e,paar.Data2,2)" value="@paar.Data2" />
+                        <button style="margin-left: 5px;" class="btn btn-primary" @onclick="() => (DeletingDataCouple(DataCoupleCopyOfList1.IndexOf(paar)))">Delete</button>
+                    </div>
+                }
+            }
+            else
+            {
+                @foreach (var paar in DataCoupleCopyOfList1)
+                {
+                    <div style="display: flex; align-items: center; justify-content: flex-start; text-align: left; width: 100%;">
+                        <label id="@paar.Data1" class="input-no-border">@paar.Data1</label>
+                        -
+                        <label id="@paar.Data2" class="input-no-border">@paar.Data2</label>
+                        <button style="margin-left: 5px;" class="btn btn-primary" @onclick="() => (DeletingDataCouple(DataCoupleCopyOfList1.IndexOf(paar)))">Delete</button>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <p>No Pair of Couples or no Data Tabelles exists.</p>
+        }
+        <button class="btn btn-primary" style="@($"background: {buttonDeletColor}");" @onclick="DeletingOnOff">@buttonDeletName</button>
+
+    }
+    else if (optionCount == 2)
+    {
+        <!-- Mainconstruct from toggleMenue -->
+        <!-- Dropdown-Menü -->
+
+        <h3>Create or Deleting Lists.</h3>
+
+        <label for="InsertNewListName">Insert new List Name or Insert the Name of deleting List:</label>
+        <input type="text" id="InsertNewListName" @bind="NewListName" class="btn-eingabefeld" placeholder="Insert Text" />
+        <button class="btn btn-primary" @onclick="NewListSave">Save New List</button>
+        <br />
+        <br />
+        <div style="display: flex; align-items: center; justify-content: flex-start; text-align: left; width: 100%; ">
+        <label for="editMode">EditMode</label>
+        <InputCheckbox id="editMode" @bind-Value="editMode"></InputCheckbox>
+        </div>
+        <br />
+        foreach (string _Name in TableNames)
+        {
+            if (editMode == true)
+            {
+                <div style="display: flex; align-items: center; justify-content: flex-start; text-align: left; width: 100%; ">
+                    <input id="@_Name" typeof="text" style="width: @(_Name.Length + 5)ch;" class="input-no-border" @onchange="(e) => ListNameChange(e,_Name)" value="@_Name" />
+                    <button name="@_Name" style="margin-left: 5px;" class="btn btn-primary" @onclick="()=>DeletingList(_Name)">List Deleting</button>
+                </div>
+            }
+            else
+            {
+                <div style="display: flex; align-items: center; justify-content: flex-start; text-align: left; width: 100%; ">
+                    <label id="@_Name" class="input-no-border">@_Name</label>
+                    <button name="@_Name" style="margin-left: 5px;" class="btn btn-primary" @onclick="()=>DeletingList(_Name)">List Deleting</button>
+                </div>
+            }
+        }
+
+    }
+    else if (optionCount == 3)
+    {
+        <div>
+            <div class="dropdown">
+                <button id="1" class="btn btn-primary" @onclick="()=>ToggleDropdown(1)">@nameOfCoiceListButton1</button><br />
+                <div class="dropdown-content" style="display:@(dropdownVisible1 ? "block" : "none")">
+                    @foreach (var name in TableNames)
+                    {
+                        <button class="btn btn-primary" style="margin-left: 3px; margin-right: 3px;" @onclick="() => SelectList(name, TableNames.IndexOf(name),1)">@name</button>
+                    }
+                </div>
+            </div>
+            Word move to
+            <div class="dropdown">
+                <button id="2" class="btn btn-primary" @onclick="()=>ToggleDropdown(2)">@nameOfCoiceListButton2</button><br />
+                <div class="dropdown-content" style="display:@(dropdownVisible2 ? "block" : "none")">
+                    @foreach (var name in TableNames)
+                    {
+                        <button class="btn btn-primary" style="margin-left: 3px; margin-right: 3px;" @onclick="() => SelectList(name, TableNames.IndexOf(name),2)">@name</button>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Dynamic create List from the Entry Couples with Moving Button -->
+        @if (DataCoupleCopyOfList1 != null && DataCoupleCopyOfList1.Count > 0)
+        {
+            @foreach (var paar in DataCoupleCopyOfList1)
+            {
+                <div style="display: flex; align-items: center; justify-content: flex-start; text-align: left; width: 100%;">
+                    <label>@paar.Data1</label> - <label>@paar.Data2</label>
+                    <button style="margin-left: 5px;" class="btn btn-primary" @onclick="() => (MoveWordToList(DataCoupleCopyOfList1.IndexOf(paar)))">Move</button>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No Pair of Couples or no Data Tabelles exists.</p>
+        }
+    }
+
+
+    <br />
+    <div style="display: flex; justify-content: center; margin: 35px;">
+        <NavLink class="nav-link btn btn-primary" href=""> Main Menue </NavLink>
+    </div>
+</div>
+
+
+
+
+
+
+
+

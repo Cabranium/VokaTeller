@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\obj\\Debug\\net8.0\\compressed\\bomi07ek2g.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Vokabel Teller.styles.css",
+      "PackagePath": "staticwebassets\\Vokabel Teller.styles.css"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\js\\download.js",
+      "PackagePath": "staticwebassets\\js\\download.js"
+    },
+    {
+      "Id": "C:\\Vokabel Teller\\testsave\\Vokabel Teller\\Vokabel Teller\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vokabel Teller.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Vokabel Teller.props",
+      "PackagePath": "build\\Vokabel Teller.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Vokabel Teller.props",
+      "PackagePath": "buildMultiTargeting\\Vokabel Teller.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Vokabel Teller.props",
+      "PackagePath": "buildTransitive\\Vokabel Teller.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
